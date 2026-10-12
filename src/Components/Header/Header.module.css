@@ -44,3 +44,25 @@ nav a{
     flex-direction:row;
     gap:2px;
 }
+@media (max-width: 768px) {
+    header{
+        flex-direction:column;
+    }
+    .brandNTagline{
+        margin:20px 20px 0;
+    }
+    nav{
+        margin:15px 20px 20px;
+    }
+}
+@media (max-width: 480px) {
+    .brandName{
+        font-size: 2.2rem;
+    }
+    .tagLine{
+        margin-left: 8px;
+    }
+    nav{
+        gap: 10px;
+    }
+}
