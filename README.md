@@ -1,4 +1,4 @@
-# Obsidian (Gotham Mart)
+# Obsidian
 
 A small storefront built with React and Vite. Products are loaded from the [Fake Store API](https://fakestoreapi.com/products), and the app has Home, Shop, and Cart pages with client-side routing.
 
