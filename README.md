@@ -1,16 +1,44 @@
-# React + Vite
+# Obsidian (Gotham Mart)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small storefront built with React and Vite. Products are loaded from the [Fake Store API](https://fakestoreapi.com/products), and the app has Home, Shop, and Cart pages with client-side routing.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19
+- React Router 8
+- Vite 8
+- ESLint
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Scripts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the Vite dev server |
+| `npm run build` | Build for production into `dist/` |
+| `npm run preview` | Serve the production build locally |
+| `npm run lint` | Run ESLint across the project |
+
+## Project Structure
+
+```
+src/
+├── App.jsx                  # Routes, cart state, and product fetching
+├── main.jsx
+├── assets/                  # SVG icons
+└── Components/
+    ├── Cart/                # Cart.jsx
+    ├── Footer/              # Footer.jsx + Footer.module.css
+    ├── Header/              # Header.jsx + Header.module.css
+    ├── Home/                # Home.jsx + Home.module.css
+    ├── Product/             # Product.jsx + Product.module.css
+    └── Shop/                # Shop.jsx + Shop.module.css
+```
+
+Each component lives in its own folder with its `.jsx` file and a matching CSS Module.
