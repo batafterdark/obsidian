@@ -1,0 +1,46 @@
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.brandName{
+    font-family: "Balthazar", serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.tagLine{
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-left:15px;
+}
+.brandNTagline{
+    display:flex;
+    flex-direction:column;
+    margin:20px;
+    margin-left:30px;
+}
+nav{
+    display:flex;
+    flex-direction:row;
+    gap: 15px;
+    margin:30px;
+}
+nav a{
+    font-family: 'Balthazar', serif;
+    font-weight: bold;
+    color: black;
+    text-decoration:none;
+}
+.activeBtn{
+    text-decoration: underline;
+    text-underline-offset:2px;
+}
+.cartNavIcon{
+    fill: #000000;
+}
+.cartLink{
+    display:flex;
+    flex-direction:row;
+    gap:2px;
+}

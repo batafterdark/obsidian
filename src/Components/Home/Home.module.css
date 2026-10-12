@@ -1,0 +1,34 @@
+h1{
+    font-family: "EB Garamond", serif;
+}
+.descCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.desc{
+    font-family: "IM Fell Great Primer", serif;
+    font-style:italic;
+    font-size: 1.5rem;
+}
+.weGot{
+    font-family: "IM Fell Great Primer", serif;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.btn{
+    font-family: "IM Fell Great Primer", serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    background:none;
+    color:black;
+    border: none;
+    text-decoration:underline;
+    transition: font-size 0.3s ease;
+}
+.btn:hover{
+    font-size: 1.3rem;
+    cursor: pointer;
+}

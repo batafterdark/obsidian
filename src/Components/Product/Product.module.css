@@ -1,0 +1,78 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.product>img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    border-radius: 8px;
+    display: block;
+}
+.itemRemovalBtn{
+    font-family: "IM Fell Great Primer", serif;
+    border: 2px solid black;
+    background:none;
+    font-size:1em;
+    padding-left:4px;
+    padding-right:4px;
+    border-radius:9px;
+    max-width: 50%;
+}
+.itemAddBtn{
+    display:inline-flex;
+    align-items: center;
+    gap:4px;
+    font-family: "Dai Banna SIL", serif;
+    font-weight:300;
+    font-style:italic;
+    font-size:1.35em;
+    padding-left:7px;
+    padding-right:7px;
+    border-radius:13px;
+    background:black;
+    color:antiquewhite;
+    max-width:70%;
+}
+.title{
+    font-family: "Balthazar", serif;
+    font-weight:bold;
+    font-size:1.2em;
+    text-align: center;
+}
+.description{
+    font-family: "IM Fell Great Primer", serif;
+    font-style: italic;
+    font-size:1em;
+    text-align: center;
+    line-height: 1.4;
+}
+.price,.rating{
+    font-family: "EB Garamond", serif;
+    font-size:1.2em;
+    font-weight:300;
+    text-align: center;
+    line-height: 1.4;
+}
+.quantityCont{
+    display: flex;
+    align-items: center;
+    font-family: "IM Fell Great Primer", serif;
+    gap: 8px;
+}
+.quantity{
+    border: 1px solid black;
+    padding: 0px 15px 0px 15px;
+    border-radius: 4px;
+}
+.quantPlus,.quantMinus,.itemAddBtn, .itemRemovalBtn{
+    cursor:pointer;
+}
+.quantPlus,.quantMinus{
+    font-size:1.5em;
+}

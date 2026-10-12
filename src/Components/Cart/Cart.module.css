@@ -1,0 +1,15 @@
+.cartItems{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 30px;
+    margin:4%;
+}
+.total{
+    font-family: "EB Garamond",serif;
+    font-size:1.3em;
+    font-style: italic;
+    justify-self: end;
+    margin-right: 5%;
+    text-decoration:underline;
+    font-weight:500;
+}
